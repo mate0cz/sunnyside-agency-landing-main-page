@@ -69,6 +69,7 @@ body{
 
 .band-container{
     display: flex;
+    height: 793px;
 }
 
 .band-left{
@@ -111,6 +112,7 @@ body{
 
 .stand-container{
     display: flex;
+    height: 793px;
 }
 
 .audience-right{
