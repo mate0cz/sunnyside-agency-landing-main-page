@@ -63,7 +63,8 @@ body{
 }
 
 .creatives-container{
-    height: 1000px;
+    height: 934px;
+    padding: 0;
 }
 
 .band-container{
@@ -73,14 +74,134 @@ body{
 .band-left{
     width: 50%;
     text-align: left;
-    padding: 150px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-top: 150px;
+    padding-right: 0;
 }
 
 .egg-right{
     width: 50%;
 }
 
+.egg-right img{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
 .second-heading{
     font-weight: bold;
     font-size: 48px;
+}
+
+.desc{
+    font-size: 22px;
+    color: rgb(128, 128, 128);
+}
+
+.goblet-left{
+    width: 50%;
+}
+
+.goblet-left img{
+    width: 100%;
+    height: auto;
+}
+
+.stand-container{
+    display: flex;
+}
+
+.audience-right{
+    width: 50%;
+    text-align: left;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-top: 150px;
+    padding-right: 0px;
+}
+
+.design-photo-container{
+    display: flex;
+}
+
+.graphic-design{
+    width: 50%;
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-size: 100%;
+    height: auto;
+    padding: 500px 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.photography{
+    width: 50%;
+    background-image: url("images/desktop/image-photography.jpg");
+    background-size: 100%;
+    height: auto;
+    padding: 500px 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.client-testamonial-heading{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 34px;
+    color: #acadaf;
+}
+
+.client-container{
+    display: flex;
+}
+
+.client-card-t h3, h4, p{
+    text-align: center;
+}
+
+.client-card-j h3, h4, p{
+    text-align: center;
+}
+
+.client-card-e h3, h4, p{
+    text-align: center;
+}
+
+.client-card-t img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-j img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-e img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-e{
+    margin-left: 100px;
+}
+
+.client-card-j{
+    margin-right: 100px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.gallery-item img{
+    width: 100%;
 }
