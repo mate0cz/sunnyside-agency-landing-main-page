@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 :root{
     --white: #ffffff;
     --black: #000000;
@@ -53,7 +55,7 @@ body{
 
 .main-heading{
     text-align: center;
-    font-size: 48px;
+    font-size: 47px;
     color: var(--white)
 }
 
@@ -99,6 +101,8 @@ body{
 .desc{
     font-size: 22px;
     color: rgb(128, 128, 128);
+    text-align: left;
+    margin-left: 220px;
 }
 
 .goblet-left{
@@ -200,10 +204,116 @@ body{
 
 .gallery{
     display: flex;
-    width: 100%;
     margin-top: 150px;
 }
 
 .gallery-item img{
     width: 100%;
+    display: flex;
+}
+
+.client-occupation{
+    color: #888692;
+}
+
+.photography-heading{
+    text-align: center;
+    color: #124c61;
+}
+
+.graphic-heading{
+    text-align: center;
+    color: #265b4f;
+}
+
+.desc-graphic{
+    color: #428071;
+    font-size: 20px;
+}
+
+.desc-photo{
+    color: #146083;
+    font-size: 20px;
+}
+
+.second-heading-left{
+    font-family: 'Lemon', serif;
+    font-size: 34px;
+    margin-left: 220px;
+    color: #272e40;
+}
+
+.second-heading-right{
+    font-family: 'Lemon', serif;
+    font-size: 34px;
+    margin-left: 220px;
+    color: #272e40;
+}
+
+.learn-more{
+    margin-left: 220px;
+    text-decoration: underline #fef3bf 8px;
+    font-family: 'Lemon', serif;
+    color: #272e40;
+}
+
+.clients{
+    background-color: #ffffff;
+}
+
+.main-footer{
+    background-color: #90d4c5;
+    height: 400px;
+}
+
+.main-footer-logo{
+    text-align: center;
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #2d7665;
+}
+
+.footer-links{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding-left: 710px;
+}
+
+.footer-link{
+    font-size: 20px;
+    margin-inline: 28px;
+    color: #2d7665;
+    padding-bottom: 50px;
+}
+
+.social-icons{
+    list-style: none;
+    padding-left: 45.5%;
+    display: flex;
+    letter-spacing: 30px;
+    font-size: 30px;
+    color: #2d7665;
+
+}
+
+.fa-facebook-official{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-instagram{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-pinterest{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-twitter{
+    color: #2d7665;
+    margin-right: 20px;
 }
