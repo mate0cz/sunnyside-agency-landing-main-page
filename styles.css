@@ -37,6 +37,11 @@ body{
     font-size: 20px;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .nav-link.contact{
     color: var(--black);
     background: var(--white);
@@ -45,6 +50,11 @@ body{
     padding-right: 25px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.nav-link.contact:hover{
+    background-color: black;
+    color: white;
 }
 
 #image-header{
@@ -257,6 +267,11 @@ body{
     color: #272e40;
 }
 
+.learn-more:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .clients{
     background-color: #ffffff;
 }
@@ -279,6 +294,10 @@ body{
     list-style: none;
     display: flex;
     padding-left: 710px;
+}
+
+.footer-links:hover{
+    cursor: pointer;
 }
 
 .footer-link{
@@ -316,4 +335,20 @@ body{
 .fa-twitter{
     color: #2d7665;
     margin-right: 20px;
+}
+
+.fa-facebook-official:hover{
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+}
+
+.fa-pinterest:hover{
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    cursor: pointer;
 }
